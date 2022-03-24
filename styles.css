@@ -429,15 +429,26 @@ transform: rotate(-25deg);
 }
 
 .about-wrapper {
-  padding: 50px 10px 50px 60px;
-  display: flex;
-  justify-content: space-between;
   border-bottom: 1px solid black;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
+  padding: 50px 10px 10px 60px;
+  
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-column {
   width: 50%;
+}
+
+.about-column h1{
+  font-size: 30px;
+}
+.about-column p{
+  font-size: 20px;
 }
 
 .about-column-left {
@@ -451,10 +462,40 @@ transform: rotate(-25deg);
   justify-content: space-between;
   width: 40%;
   align-items: flex-start;
-  height: 600px;
+  height: 300px;
   font-size: 22px;
 }
 
 .category-title {
   margin: 50px 0 10px 0;
+}
+
+.item-painting:hover {
+  color: #e5bcf0;
+}
+
+.item-gardening:hover {
+  color:aquamarine
+}
+
+.item-skiing:hover {
+  color:antiquewhite;
+}
+
+.item-cats:hover {
+  color:blue
+}
+
+.photo {
+  height: 250px;
+  opacity: 0.7;
+  border-radius: 7%;
+}
+.bottom-column{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-column img{
+  height: 300px;
 }
